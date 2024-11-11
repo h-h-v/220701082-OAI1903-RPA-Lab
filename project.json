@@ -1,14 +1,16 @@
 {
-  "name": "BlankProcess",
-  "projectId": "5dcfc917-c476-487f-9128-d5615e82b890",
+  "name": "PROJECT",
+  "projectId": "c729c7fd-6f9f-42f8-8728-09deb8695688",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.AdobePdfServices.IntegrationService.Activities": "[4.0.6]",
+    "UiPath.Excel.Activities": "[2.24.3]",
     "UiPath.Mail.Activities": "[1.21.1]",
-    "UiPath.System.Activities": "[23.10.5]",
-    "UiPath.Testing.Activities": "[23.10.1]",
-    "UiPath.UIAutomation.Activities": "[23.10.7]"
+    "UiPath.PDF.Activities": "[3.20.1]",
+    "UiPath.System.Activities": "[24.10.6]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.10.7]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -51,7 +53,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "05d925a8-c13d-4d63-8fa2-dcac7a98c788",
+      "uniqueId": "259b39e0-b563-458e-bdfb-28d014d55d7c",
       "input": [],
       "output": []
     }
